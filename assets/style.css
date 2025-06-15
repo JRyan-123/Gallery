@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	background: #191919;
+}
+.gallery{
+	width: 900px;
+	display: flex;
+}
+.gallery div{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
+.gallery div img{
+	width: 100%;
+}
